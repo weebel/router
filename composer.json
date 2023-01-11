@@ -1,0 +1,27 @@
+{
+  "name": "weebel/router",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "autoload": {
+    "psr-4": {
+      "Weebel\\Router\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Weebel\\Router\\Tests\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest",
+    "symfony/var-dumper": "^6.0",
+    "phpunit/phpunit": "^9.5",
+    "friendsofphp/php-cs-fixer": "^3.13",
+    "mockery/mockery": "^1.5"
+  },
+  "require": {
+    "weebel/contracts": "dev-master",
+    "symfony/http-foundation": "^6.2",
+    "symfony/routing": "^6.2"
+  }
+}
